@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB7C4D761DF1473C0035DFA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7C4D751DF1473C0035DFA7 /* AppDelegate.swift */; };
+		EB7C4D781DF1473C0035DFA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7C4D771DF1473C0035DFA7 /* ViewController.swift */; };
+		EB7C4D7B1DF1473C0035DFA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7C4D791DF1473C0035DFA7 /* Main.storyboard */; };
+		EB7C4D7D1DF1473C0035DFA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7C4D7C1DF1473C0035DFA7 /* Assets.xcassets */; };
+		EB7C4D801DF1473C0035DFA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7C4D7E1DF1473C0035DFA7 /* LaunchScreen.storyboard */; };
+		EB7C4D8B1DF1473C0035DFA7 /* tensor_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7C4D8A1DF1473C0035DFA7 /* tensor_appTests.swift */; };
+		EB7C4D961DF1473C0035DFA7 /* tensor_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7C4D951DF1473C0035DFA7 /* tensor_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB7C4D871DF1473C0035DFA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB7C4D6A1DF1473C0035DFA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB7C4D711DF1473C0035DFA7;
+			remoteInfo = "tensor-app";
+		};
+		EB7C4D921DF1473C0035DFA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB7C4D6A1DF1473C0035DFA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB7C4D711DF1473C0035DFA7;
+			remoteInfo = "tensor-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB7C4D721DF1473C0035DFA7 /* tensor-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tensor-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7C4D751DF1473C0035DFA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB7C4D771DF1473C0035DFA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB7C4D7A1DF1473C0035DFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB7C4D7C1DF1473C0035DFA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB7C4D7F1DF1473C0035DFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB7C4D811DF1473C0035DFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7C4D861DF1473C0035DFA7 /* tensor-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tensor-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7C4D8A1DF1473C0035DFA7 /* tensor_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tensor_appTests.swift; sourceTree = "<group>"; };
+		EB7C4D8C1DF1473C0035DFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7C4D911DF1473C0035DFA7 /* tensor-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tensor-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7C4D951DF1473C0035DFA7 /* tensor_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tensor_appUITests.swift; sourceTree = "<group>"; };
+		EB7C4D971DF1473C0035DFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB7C4D6F1DF1473C0035DFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7C4D831DF1473C0035DFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7C4D8E1DF1473C0035DFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB7C4D691DF1473C0035DFA7 = {
+			isa = PBXGroup;
+			children = (
+				EB7C4D741DF1473C0035DFA7 /* tensor-app */,
+				EB7C4D891DF1473C0035DFA7 /* tensor-appTests */,
+				EB7C4D941DF1473C0035DFA7 /* tensor-appUITests */,
+				EB7C4D731DF1473C0035DFA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB7C4D731DF1473C0035DFA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB7C4D721DF1473C0035DFA7 /* tensor-app.app */,
+				EB7C4D861DF1473C0035DFA7 /* tensor-appTests.xctest */,
+				EB7C4D911DF1473C0035DFA7 /* tensor-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB7C4D741DF1473C0035DFA7 /* tensor-app */ = {
+			isa = PBXGroup;
+			children = (
+				EB7C4D751DF1473C0035DFA7 /* AppDelegate.swift */,
+				EB7C4D771DF1473C0035DFA7 /* ViewController.swift */,
+				EB7C4D791DF1473C0035DFA7 /* Main.storyboard */,
+				EB7C4D7C1DF1473C0035DFA7 /* Assets.xcassets */,
+				EB7C4D7E1DF1473C0035DFA7 /* LaunchScreen.storyboard */,
+				EB7C4D811DF1473C0035DFA7 /* Info.plist */,
+			);
+			path = "tensor-app";
+			sourceTree = "<group>";
+		};
+		EB7C4D891DF1473C0035DFA7 /* tensor-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB7C4D8A1DF1473C0035DFA7 /* tensor_appTests.swift */,
+				EB7C4D8C1DF1473C0035DFA7 /* Info.plist */,
+			);
+			path = "tensor-appTests";
+			sourceTree = "<group>";
+		};
+		EB7C4D941DF1473C0035DFA7 /* tensor-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB7C4D951DF1473C0035DFA7 /* tensor_appUITests.swift */,
+				EB7C4D971DF1473C0035DFA7 /* Info.plist */,
+			);
+			path = "tensor-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB7C4D711DF1473C0035DFA7 /* tensor-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7C4D9A1DF1473C0035DFA7 /* Build configuration list for PBXNativeTarget "tensor-app" */;
+			buildPhases = (
+				EB7C4D6E1DF1473C0035DFA7 /* Sources */,
+				EB7C4D6F1DF1473C0035DFA7 /* Frameworks */,
+				EB7C4D701DF1473C0035DFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tensor-app";
+			productName = "tensor-app";
+			productReference = EB7C4D721DF1473C0035DFA7 /* tensor-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB7C4D851DF1473C0035DFA7 /* tensor-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7C4D9D1DF1473C0035DFA7 /* Build configuration list for PBXNativeTarget "tensor-appTests" */;
+			buildPhases = (
+				EB7C4D821DF1473C0035DFA7 /* Sources */,
+				EB7C4D831DF1473C0035DFA7 /* Frameworks */,
+				EB7C4D841DF1473C0035DFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB7C4D881DF1473C0035DFA7 /* PBXTargetDependency */,
+			);
+			name = "tensor-appTests";
+			productName = "tensor-appTests";
+			productReference = EB7C4D861DF1473C0035DFA7 /* tensor-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB7C4D901DF1473C0035DFA7 /* tensor-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7C4DA01DF1473C0035DFA7 /* Build configuration list for PBXNativeTarget "tensor-appUITests" */;
+			buildPhases = (
+				EB7C4D8D1DF1473C0035DFA7 /* Sources */,
+				EB7C4D8E1DF1473C0035DFA7 /* Frameworks */,
+				EB7C4D8F1DF1473C0035DFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB7C4D931DF1473C0035DFA7 /* PBXTargetDependency */,
+			);
+			name = "tensor-appUITests";
+			productName = "tensor-appUITests";
+			productReference = EB7C4D911DF1473C0035DFA7 /* tensor-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB7C4D6A1DF1473C0035DFA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sudheesh;
+				TargetAttributes = {
+					EB7C4D711DF1473C0035DFA7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = W64KKJ9LT5;
+					};
+					EB7C4D851DF1473C0035DFA7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB7C4D711DF1473C0035DFA7;
+					};
+					EB7C4D901DF1473C0035DFA7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB7C4D711DF1473C0035DFA7;
+					};
+				};
+			};
+			buildConfigurationList = EB7C4D6D1DF1473C0035DFA7 /* Build configuration list for PBXProject "tensor-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB7C4D691DF1473C0035DFA7;
+			productRefGroup = EB7C4D731DF1473C0035DFA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB7C4D711DF1473C0035DFA7 /* tensor-app */,
+				EB7C4D851DF1473C0035DFA7 /* tensor-appTests */,
+				EB7C4D901DF1473C0035DFA7 /* tensor-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB7C4D701DF1473C0035DFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7C4D801DF1473C0035DFA7 /* LaunchScreen.storyboard in Resources */,
+				EB7C4D7D1DF1473C0035DFA7 /* Assets.xcassets in Resources */,
+				EB7C4D7B1DF1473C0035DFA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7C4D841DF1473C0035DFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7C4D8F1DF1473C0035DFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB7C4D6E1DF1473C0035DFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7C4D781DF1473C0035DFA7 /* ViewController.swift in Sources */,
+				EB7C4D761DF1473C0035DFA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7C4D821DF1473C0035DFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7C4D8B1DF1473C0035DFA7 /* tensor_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7C4D8D1DF1473C0035DFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7C4D961DF1473C0035DFA7 /* tensor_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB7C4D881DF1473C0035DFA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB7C4D711DF1473C0035DFA7 /* tensor-app */;
+			targetProxy = EB7C4D871DF1473C0035DFA7 /* PBXContainerItemProxy */;
+		};
+		EB7C4D931DF1473C0035DFA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB7C4D711DF1473C0035DFA7 /* tensor-app */;
+			targetProxy = EB7C4D921DF1473C0035DFA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB7C4D791DF1473C0035DFA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7C4D7A1DF1473C0035DFA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB7C4D7E1DF1473C0035DFA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7C4D7F1DF1473C0035DFA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB7C4D981DF1473C0035DFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB7C4D991DF1473C0035DFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB7C4D9B1DF1473C0035DFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "tensor-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensor.tensor-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EB7C4D9C1DF1473C0035DFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "tensor-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensor.tensor-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		EB7C4D9E1DF1473C0035DFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tensor-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensor.tensor-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tensor-app.app/tensor-app";
+			};
+			name = Debug;
+		};
+		EB7C4D9F1DF1473C0035DFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tensor-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensor.tensor-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tensor-app.app/tensor-app";
+			};
+			name = Release;
+		};
+		EB7C4DA11DF1473C0035DFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tensor-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensor.tensor-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tensor-app";
+			};
+			name = Debug;
+		};
+		EB7C4DA21DF1473C0035DFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tensor-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensor.tensor-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tensor-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB7C4D6D1DF1473C0035DFA7 /* Build configuration list for PBXProject "tensor-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7C4D981DF1473C0035DFA7 /* Debug */,
+				EB7C4D991DF1473C0035DFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7C4D9A1DF1473C0035DFA7 /* Build configuration list for PBXNativeTarget "tensor-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7C4D9B1DF1473C0035DFA7 /* Debug */,
+				EB7C4D9C1DF1473C0035DFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB7C4D9D1DF1473C0035DFA7 /* Build configuration list for PBXNativeTarget "tensor-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7C4D9E1DF1473C0035DFA7 /* Debug */,
+				EB7C4D9F1DF1473C0035DFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB7C4DA01DF1473C0035DFA7 /* Build configuration list for PBXNativeTarget "tensor-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7C4DA11DF1473C0035DFA7 /* Debug */,
+				EB7C4DA21DF1473C0035DFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB7C4D6A1DF1473C0035DFA7 /* Project object */;
+}
