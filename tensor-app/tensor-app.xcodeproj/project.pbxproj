@@ -194,13 +194,16 @@
 					EB7C4D711DF1473C0035DFA7 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = W64KKJ9LT5;
+						LastSwiftMigration = 0820;
 					};
 					EB7C4D851DF1473C0035DFA7 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = EB7C4D711DF1473C0035DFA7;
 					};
 					EB7C4D901DF1473C0035DFA7 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = EB7C4D711DF1473C0035DFA7;
 					};
 				};
@@ -409,6 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tensor.tensor-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -423,6 +427,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tensor.tensor-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -434,6 +439,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tensor.tensor-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tensor-app.app/tensor-app";
 			};
 			name = Debug;
@@ -446,6 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tensor.tensor-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tensor-app.app/tensor-app";
 			};
 			name = Release;
@@ -457,6 +464,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tensor.tensor-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "tensor-app";
 			};
 			name = Debug;
@@ -468,6 +476,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tensor.tensor-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "tensor-app";
 			};
 			name = Release;
@@ -491,6 +500,7 @@
 				EB7C4D9C1DF1473C0035DFA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB7C4D9D1DF1473C0035DFA7 /* Build configuration list for PBXNativeTarget "tensor-appTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				EB7C4D9F1DF1473C0035DFA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB7C4DA01DF1473C0035DFA7 /* Build configuration list for PBXNativeTarget "tensor-appUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +518,7 @@
 				EB7C4DA21DF1473C0035DFA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
